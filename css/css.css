@@ -1,0 +1,375 @@
+/* GENERAL */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 15vh 1fr 1fr 10vh; 
+    grid-template-columns: 1fr; 
+    grid-template-areas:
+    "header"
+    "main"
+    "main"
+    "footer";
+}
+
+
+
+
+header {
+    height: 15vh;
+    margin-left: 700px;
+     display: flex;
+     flex-wrap: nowrap;
+     flex-direction: row;
+     justify-items: center;
+     grid-area: header;
+     text-align: center;
+     
+     list-style: none;
+}
+
+main {
+    grid-area: main;
+    max-height: calc(100vh - 25vh); 
+    overflow: auto; 
+}
+
+
+footer {
+    grid-area: footer;
+    height: 10vh;
+    grid-area: footer;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+
+.spotifi {
+    color: green;
+}
+
+.instagramm {
+    color: blueviolet;
+}
+
+
+
+
+
+@font-face {
+    font-family: "tobi" ;
+    src: url(../assets/fuentes/COLLENIS.ttf);
+}
+
+
+
+              /* INICIO */
+
+
+#paginasmain li {
+    font-family: tobi;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 80px;
+    margin-bottom: 80px;
+    
+}
+
+#paginasmain a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    
+}   
+
+.maininicio {
+    grid-area: main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.carousel-inner img {
+    flex-basis: 50%;
+    width: 900px;
+    height: 700px;
+
+}
+#carouselExampleIndicators {
+    
+    width: 900px;
+    height: 700px;
+}
+
+.cerocero {
+    flex-basis: 50%;
+    margin-right: 160px;
+    margin-left: 160px;
+      
+    
+    }
+
+                 /* BIOGRAFIA */
+
+
+
+
+#paginasbio li {
+    font-family: tobi;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 80px;
+    margin-bottom: 80px;
+    
+}
+
+#paginasbio a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    
+}   
+                 
+
+ .maindebio {
+
+    grid-area: main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+ 
+
+
+ .img1 {
+    
+    margin: auto;
+    margin-left: 400px;
+    width: 600px;
+    height: 600px;
+    
+}
+
+
+                                        /* LANZAMIENTOS */
+
+#paginaslanzamientos li {
+    font-family: tobi;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 80px;
+    margin-bottom: 80px;
+    
+}
+
+#paginaslanzamientos a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    
+}   
+
+
+
+
+.lanzamientoz {
+    margin-top: 100px;
+    margin-left: 350px;
+}
+
+.lanzamientoz2 {
+    margin-left: 350px;
+}
+
+
+
+                                                                /* LYRICS */
+
+
+#paginaslyrics li {
+    font-family: tobi;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 80px;
+    margin-bottom: 80px;
+    
+}
+
+#paginaslyrics a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    
+}   
+
+
+
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap; 
+  }
+  
+  .letras {
+    margin-top: 40px;
+    margin-left: 600px;
+    flex: 1; 
+    padding: 10px; 
+  }
+  
+  .letras ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .letras li {
+    margin-bottom: 200px; 
+  }
+  
+  .letras a{
+    color: white;
+  }
+
+  
+  .imagen {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+  }
+  
+  .imagen img {
+    margin-right: 150px;
+    max-width: 570px; 
+    width: 100%; 
+    height: auto;
+  }
+
+               /* ALCOHOL, CAOS, TIME */
+
+.alcohol {
+       color: white;
+}
+
+.alco {
+font-family: tobi;
+ margin-left: 920px;
+}
+
+.alcoholl {
+    margin-left: 50px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.time {
+    color: white;
+    font-family: tobi;
+    margin-left: 945px;
+}
+
+.tiime {
+    margin-left: 50px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.caoos {
+    color: white;
+    font-family: tobi;
+    margin-left: 945px;
+
+}
+
+.caos {
+    margin-left: 50px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+
+/* Media queries para ajustar estilos en pantallas más pequeñas */
+
+/* A partir de 1200px */
+@media screen and (min-width: 1200px) {
+    header {
+      justify-content: center; /* Centra el header horizontalmente */
+      margin-left: 0; /* Asegura que el header esté centrado en pantallas grandes */
+    }
+  }
+
+  
+  
+
+  @media screen and (max-width: 1200px) {
+    .cerocero {
+        display: none;
+
+}
+}
+  /* A partir de 992px */
+  @media screen and (min-width: 992px) {
+    header {
+      max-width: 992px; /* Limita el ancho del header para que no sea demasiado grande */
+      margin: 0 auto; /* Centra el header horizontalmente */
+    }
+  }
+  
+  /* A partir de 768px */
+  @media screen and (max-width: 768px) {
+    /* Ajustes para pantallas con un ancho máximo de 768px */
+    header {
+      margin-left: 200px; /* Centra el header horizontalmente en pantallas más pequeñas */
+    }
+  
+    #paginasmain li {
+      margin-right: 1rem; /* Reduce el margen derecho de los enlaces del menú */
+      margin-bottom: 1rem; /* Reduce el margen inferior de los enlaces del menú */
+    }
+  
+    .cerocero {
+      display: none; /* Oculta las imágenes individuales en el main */
+    }
+  
+    /* Reduzcamos el tamaño del carrusel */
+    .carousel-inner img {
+      max-width: 90%; /* Ajusta el tamaño máximo del carrusel */
+      height: auto;
+    }
+  }
+  
+  /* A partir de 576px */
+  @media screen and (max-width: 576px) {
+    header {
+      justify-content: center; /* Centra el header horizontalmente en pantallas más pequeñas */
+      
+    }
+
+    
+    .headermain img {
+        margin-right: 200px;
+        height: auto;
+        width: auto;
+
+    }
+  }
+  
+  
+
+
+
