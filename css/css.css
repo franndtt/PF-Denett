@@ -1,4 +1,4 @@
-/* GENERAL */
+    /* ================================= GENERAL  ================================= */
 
 body {
     margin: 0;
@@ -40,16 +40,21 @@ main {
 
 footer {
     grid-area: footer;
-    height: 10vh;
+    height: 20vh;
     grid-area: footer;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     
 
 }
+
+footer p {
+  color: white;
+}
+
 
 .spotifi {
     color: green;
@@ -70,7 +75,7 @@ footer {
 
 
 
-              /* INICIO */
+    /* ================================= INICIO ================================= */
 
 
 #paginasmain li {
@@ -99,14 +104,14 @@ footer {
 
 .carousel-inner img {
     flex-basis: 50%;
-    width: 900px;
-    height: 700px;
+    width: 700px;
+    height: 600px;
 
 }
 #carouselExampleIndicators {
     
-    width: 900px;
-    height: 700px;
+    width: 700px;
+    height: 600px;
 }
 
 .cerocero {
@@ -117,7 +122,93 @@ footer {
     
     }
 
-                 /* BIOGRAFIA */
+   
+    /* =================================TRANSICIONES DE INICIO ================================= */
+  .transicion {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+    
+  .image1 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      transition: opacity 0.5s linear;
+      background-image: url('../assets/images/transicion-1.jpg'); 
+      opacity: 1;
+    }
+
+    
+    
+    
+    
+  .image2 {
+      
+      background-image: url('../assets/images/transicion-2.jpg'); 
+      opacity: 0;
+    }
+    
+  .transicion:hover .image1 {
+      opacity: 0;
+    }
+    
+  .transicion:hover .image2 {
+      opacity: 1;
+      
+    }
+
+    .transicion-2 {
+      
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+    
+    .transicion-2 img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: opacity 4s linear;
+      width: 700px;
+      height: 600px;
+    }
+    
+    .transicion-2 .button-especifico {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 10px 20px;
+      background-color: #920796;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      display: none;
+    }
+
+   
+    
+    .transicion-2:hover img {
+      opacity: 1;
+    }
+    
+    .transicion-2:hover .button-especifico {
+      display: block;
+    }
+
+    
+    
+    
+
+
+
+                 /* ================================= BIOGRAFIA ================================= */
 
 
 
@@ -160,7 +251,7 @@ footer {
 }
 
 
-                                        /* LANZAMIENTOS */
+                    /* ================================= LANZAMIENTOS ================================= */
 
 #paginaslanzamientos li {
     font-family: tobi;
@@ -192,7 +283,7 @@ footer {
 
 
 
-                                                                /* LYRICS */
+                     /* ================================= LYRICS ================================= */
 
 
 #paginaslyrics li {
@@ -205,9 +296,9 @@ footer {
 }
 
 #paginaslyrics a {
-    text-decoration: none;
-    list-style: none;
-    color: white;
+  list-style: none;
+  text-decoration: none;
+  color: white;
     
 }   
 
@@ -237,6 +328,8 @@ footer {
   }
   
   .letras a{
+    
+    list-style: none;
     color: white;
   }
 
@@ -255,7 +348,7 @@ footer {
     height: auto;
   }
 
-               /* ALCOHOL, CAOS, TIME */
+               /* ================================= ALCOHOL,TIME,CAOS ================================= */
 
 .alcohol {
        color: white;
@@ -267,6 +360,7 @@ font-family: tobi;
 }
 
 .alcoholl {
+    
     margin-left: 50px;
     color: white;
     font-size: 16px;
