@@ -324,7 +324,7 @@ footer p {
   }
   
   .letras li {
-    margin-bottom: 200px; 
+    margin-bottom: 150px; 
   }
   
   .letras a{
@@ -343,8 +343,8 @@ footer p {
   
   .imagen img {
     margin-right: 150px;
-    max-width: 570px; 
-    width: 100%; 
+    width: 550px; 
+    
     height: auto;
   }
 
@@ -356,7 +356,7 @@ footer p {
 
 .alco {
 font-family: tobi;
- margin-left: 920px;
+ margin-left: 900px;
 }
 
 .alcoholl {
