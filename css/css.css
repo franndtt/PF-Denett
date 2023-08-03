@@ -210,25 +210,41 @@ footer p {
 
                  /* ================================= BIOGRAFIA ================================= */
 
+.headermybio {
+  margin: 0;
+}
+#carouselExampleIndicatorsbio img {
 
+  width: 700px;
+  height: 600px;
 
-
-#paginasbio li {
-    font-family: tobi;
-    text-decoration: none;
-    display: inline-block;
-    margin-right: 80px;
-    margin-bottom: 80px;
-    
 }
 
-#paginasbio a {
-    text-decoration: none;
-    list-style: none;
-    color: white;
-    
-}   
-                 
+#carouselExampleIndicatorsbio {
+  display: none;
+  width: 700px;
+  height: 600px;
+}
+
+
+.container-fluid {
+  margin-left: 400px;
+}
+.nav-link {
+  width: 200px;
+  
+  font-family: tobi;
+  color: white;
+}
+
+.nav-linkactive {
+  
+  color: white;
+}
+
+
+
+
 
  .maindebio {
 
@@ -249,6 +265,8 @@ footer p {
     height: 600px;
     
 }
+
+
 
 
                     /* ================================= LANZAMIENTOS ================================= */
@@ -397,70 +415,139 @@ font-family: tobi;
 }
 
 
-/* Media queries para ajustar estilos en pantallas más pequeñas */
 
-/* A partir de 1200px */
+
+
 @media screen and (min-width: 1200px) {
-    header {
-      justify-content: center; /* Centra el header horizontalmente */
-      margin-left: 0; /* Asegura que el header esté centrado en pantallas grandes */
-    }
+   
+  .img1 {
+    
+    margin-right: 0px;
+    margin-left: 300px;
+    
+    
+}
+
+
+  
+}
+@media screen and (max-width: 1500px) {
+
+  .img1 {
+    
+    margin-right: 0px;
+    margin-left: 200px;
+    
+ 
+}
+  
+  
+.headermybio {
+    margin-left: 500px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+
+  .headermybio {
+    margin-left: 400px;
   }
 
-  
+  #carouselExampleIndicatorsbio {
+    display: inline-block;
+    margin-left: 300px;
+  }  
+
+.img1 {
+  display: none;
+}
+
+.img2 {
+  display: none;
+}
+
+
+@media screen and (max-width: 1200px) {
+
   
 
-  @media screen and (max-width: 1200px) {
-    .cerocero {
-        display: none;
+
+  #carouselExampleIndicatorsbio {
+    margin-left: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+    
+  }
+
+  .headermybio {
+    margin-left: 400px;
+  }
+}
+
+
 
 }
+@media screen and (max-width: 1100px) {
+
+  #carouselExampleIndicatorsbio {
+    margin-left: 150px;
+  }
+
+  .headermybio {
+    margin-left: 250px;
+  }
+
+
+
 }
-  /* A partir de 992px */
-  @media screen and (min-width: 992px) {
-    header {
-      max-width: 992px; /* Limita el ancho del header para que no sea demasiado grande */
-      margin: 0 auto; /* Centra el header horizontalmente */
-    }
-  }
+
   
-  /* A partir de 768px */
-  @media screen and (max-width: 768px) {
-    /* Ajustes para pantallas con un ancho máximo de 768px */
-    header {
-      margin-left: 200px; /* Centra el header horizontalmente en pantallas más pequeñas */
-    }
-  
-    #paginasmain li {
-      margin-right: 1rem; /* Reduce el margen derecho de los enlaces del menú */
-      margin-bottom: 1rem; /* Reduce el margen inferior de los enlaces del menú */
-    }
-  
-    .cerocero {
-      display: none; /* Oculta las imágenes individuales en el main */
-    }
-  
-    /* Reduzcamos el tamaño del carrusel */
-    .carousel-inner img {
-      max-width: 90%; /* Ajusta el tamaño máximo del carrusel */
-      height: auto;
-    }
-  }
-  
-  /* A partir de 576px */
-  @media screen and (max-width: 576px) {
-    header {
-      justify-content: center; /* Centra el header horizontalmente en pantallas más pequeñas */
-      
-    }
+  @media screen and (max-width: 992px) {
 
     
-    .headermain img {
-        margin-right: 200px;
-        height: auto;
-        width: auto;
-
+    #carouselExampleIndicatorsbio {
+      margin-left: 100px;
     }
+  
+    .headermybio {
+      margin-left: 150px;
+    }
+  
+  
+   
+  }
+  
+  @media screen and (max-width: 880px) {
+    
+    #carouselExampleIndicatorsbio img {
+      width: 500px;
+      height: 500px;
+    }
+      
+    
+    
+    #carouselExampleIndicatorsbio {
+      width: 500px;
+      height: 500px;
+      margin-left: 150px;
+    }
+  
+    .headermybio {
+      margin-left: 100px;
+    }
+  }
+
+
+
+  @media screen and (max-width: 768px) {
+  }
+  
+  
+  @media screen and (max-width: 576px) {
+  
   }
   
   
