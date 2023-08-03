@@ -442,20 +442,18 @@ font-family: tobi;
 }
   
   
-.headermybio {
-    margin-left: 500px;
-  }
+
 }
 
 @media screen and (max-width: 1400px) {
 
-  .headermybio {
-    margin-left: 400px;
+  .container-fluid {
+    margin-left: 150px;
   }
 
   #carouselExampleIndicatorsbio {
     display: inline-block;
-    margin-left: 300px;
+    margin-left: 400px;
   }  
 
 .img1 {
@@ -472,19 +470,7 @@ font-family: tobi;
   
 
 
-  #carouselExampleIndicatorsbio {
-    margin-left: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 100%;
-    max-height: 100%;
-    
-  }
-
-  .headermybio {
-    margin-left: 400px;
-  }
+  
 }
 
 
@@ -492,13 +478,16 @@ font-family: tobi;
 }
 @media screen and (max-width: 1100px) {
 
-  #carouselExampleIndicatorsbio {
-    margin-left: 150px;
-  }
 
-  .headermybio {
-    margin-left: 250px;
+  #carouselExampleIndicatorsbio {
+    margin-top: 100px;
+    margin-left: 350px;
   }
+   
+
+.footerbio {
+  margin-top: 100px;
+}
 
 
 
@@ -507,14 +496,12 @@ font-family: tobi;
   
   @media screen and (max-width: 992px) {
 
-    
-    #carouselExampleIndicatorsbio {
-      margin-left: 100px;
-    }
-  
-    .headermybio {
+    #carouselExampleIndicatorsbio{
       margin-left: 150px;
-    }
+    }  
+    .container-fluid {
+      margin-left: 0px;
+    }   
   
   
    
@@ -522,34 +509,61 @@ font-family: tobi;
   
   @media screen and (max-width: 880px) {
     
-    #carouselExampleIndicatorsbio img {
-      width: 500px;
-      height: 500px;
-    }
-      
-    
     
     #carouselExampleIndicatorsbio {
-      width: 500px;
-      height: 500px;
-      margin-left: 150px;
-    }
-  
-    .headermybio {
       margin-left: 100px;
-    }
+    }    
+    
+    
+    
   }
 
 
 
   @media screen and (max-width: 768px) {
+
+    #carouselExampleIndicatorsbio {
+      margin-left: 25px;
+    }  
   }
   
   
   @media screen and (max-width: 576px) {
-  
+
+    #carouselExampleIndicatorsbio {
+      
+      margin-left: 0px;
+      width: 500px;
+      height: 400px;
+    }
+    
+
+    #carouselExampleIndicatorsbio img {
+      width: 500px;
+      height: 600px;
+    }
+
   }
+      
   
+  
+    @media screen and (max-width: 500px) {
+
+      #carouselExampleIndicatorsbio {
+      
+        margin-left: 0px;
+        width: 400px;
+        height: 600px;
+      }
+      
+  
+      #carouselExampleIndicatorsbio img {
+        width: 400px;
+        height: 600px;
+      }
+        
+
+    }
   
 
 
