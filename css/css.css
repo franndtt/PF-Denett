@@ -631,10 +631,35 @@ font-family: tobi;
         margin-left: 70px;
       }
     
-        
+      header {
+        grid-area: header;
+      }
+      header nav {
+        background-color: black;
+        height: 73px;
+        z-index: 9999 !important;
+      }
+      header nav .navbar-collapse {
+        background-color: black
+      }
+      header nav #switch-nav {
+        color: white;
+      }
+      header nav #switch-nav #sun-icon {
+        position: relative;
+        right: 84px;
+      }
+      header nav #switch-nav #swithc-dark-theme {
+        color: black;
+      }
+      header nav #search-nav {
+        display: flex;
+        justify-content: center;
+        justify-self: center;
 
-    }
+    
+
+  }
+
+}
   
-
-
-
