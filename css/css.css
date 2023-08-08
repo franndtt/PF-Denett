@@ -436,6 +436,23 @@ font-family: tobi;
  margin-left: 300px;
 }
 
+.time {
+  margin-left: 40px;
+  text-align: center;
+}
+
+.alco {
+  margin-left: 40px;
+  text-align: center;
+}
+
+.caoos {
+  margin-left: 40px;
+  text-align: center;
+}
+
+
+
 
   
 }
@@ -502,6 +519,21 @@ font-family: tobi;
   margin-top: 150px;
 }
 
+.time {
+  margin-left: 40px;
+  text-align: center;
+}
+
+.alco {
+  margin-left: 40px;
+  text-align: center;
+}
+
+.caoos {
+  margin-left: 40px;
+  text-align: center;
+}
+
   
 }
 
@@ -521,6 +553,17 @@ font-family: tobi;
   margin-top: 140px;
 }
 
+.footertime {
+  margin-top: 200px;
+}
+
+.footeralco {
+  margin-top: 200px;
+}
+
+.footercaos {
+  margin-top: 200px;
+}
 
 
 }
