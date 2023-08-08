@@ -419,6 +419,16 @@ font-family: tobi;
 
 
 @media screen and (min-width: 1200px) {
+
+  .navbar-toggler {
+    background-color: black;
+  }
+  
+  
+  
+  body {
+    overflow-x: hidden;
+  }
    
   .img1 {
     
@@ -451,6 +461,12 @@ font-family: tobi;
   text-align: center;
 }
 
+.container-fluid {
+  align-items: center;
+}
+
+
+
 
 
 
@@ -479,12 +495,40 @@ font-family: tobi;
 .lanzamientoz2 {
   margin-left: 0px;
 }
+
+.letras {
+  margin-left: 40px;
+  text-align: center;
+}
+
+.imagen {
+  margin-right: 0px;
+  text-align: center;
+}
+
+#carouselExampleIndicatorsind img {
+  width: 600px;
+  height: 500px;
+}
+
+#carouselExampleIndicatorsind {
+  width: 600px;
+  height: 500px;
+}
+
+.cerocero {
+  margin-left: 20px;
+  margin-right: 20px;
+  
+}
   
   
 
 }
 
 @media screen and (max-width: 1400px) {
+
+ 
 
   .container-fluid {
     margin-left: 150px;
@@ -534,6 +578,10 @@ font-family: tobi;
   text-align: center;
 }
 
+.indexfooter {
+  margin-top: 150px;
+}
+
   
 }
 
@@ -565,6 +613,10 @@ font-family: tobi;
   margin-top: 200px;
 }
 
+.footerlyrics {
+  margin-top: 150px;
+}
+
 
 }
 
@@ -587,6 +639,27 @@ font-family: tobi;
     margin-left: 200px;
 
   }
+
+  .imagen img {
+    margin-right: 0px;
+  
+  }
+
+  #carouselExampleIndicatorsind img {
+    width: 450px;
+    height: 400px;
+  }
+  
+  #carouselExampleIndicatorsind {
+    width: 450px;
+    height: 400px;
+  }
+  
+  .cerocero {
+    margin-left: 20px;
+    margin-right: 20px;
+    
+  }
   
    
   }
@@ -603,7 +676,27 @@ font-family: tobi;
     }
     .lanzamientoz2 {
       margin-left: 100px;
-    }  
+    }
+    
+    .imagen img {
+      width: 450px;
+      height: auto;
+    }
+
+    .cerocero {
+      display: none;
+      
+    }
+
+    #carouselExampleIndicatorsind img {
+      width: 650px;
+      height: 500px;
+    }
+    
+    #carouselExampleIndicatorsind {
+      width: 650px;
+      height: 500px;
+    }
     
     
     
@@ -623,10 +716,65 @@ font-family: tobi;
     .lanzamientoz2 {
       margin-left: 20px;
     }
+
+    
+    
+    .footerlyrics {
+      margin-top: 180px;
+    }
+    
+    .imagen {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    }
+    
+    .imagen img {
+
+    margin-left: 50px;
+      margin-top: 100px;
+      width: 500px;
+      height: 500px;
+    }
+
+    .letras {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Cambia el valor alfa para ajustar la opacidad */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: white;
+      margin-top: 100px;
+    }
+
+    #carouselExampleIndicatorsind img {
+      width: 550px;
+      height: 450px;
+    }
+    
+    #carouselExampleIndicatorsind {
+      width: 550px;
+      height: 450px;
+    } 
+
+    
   }
   
   
   @media screen and (max-width: 576px) {
+
+    .imagen img {
+
+      margin-left: 50px;
+        margin-top: 100px;
+        width: 450px;
+        height: 450px;
+      }
 
     #carouselExampleIndicatorsbio {
       
@@ -648,12 +796,28 @@ font-family: tobi;
       margin-left: 150px;
     }
 
+    #carouselExampleIndicatorsind img {
+      width: 480px;
+      height: 380px;
+    }
+    
+    #carouselExampleIndicatorsind {
+      width: 480px;
+      height: 380px;
+    } 
+
   }
       
   
   
     @media screen and (max-width: 500px) {
+      .imagen img {
 
+        margin-left: 50px;
+          margin-top: 100px;
+          width: 350px;
+          height: 500px;
+        }
       #carouselExampleIndicatorsbio {
       
         margin-left: 0px;
@@ -686,7 +850,7 @@ font-family: tobi;
         background-color: black
       }
       header nav #switch-nav {
-        color: white;
+        color: black;
       }
       header nav #switch-nav #sun-icon {
         position: relative;
@@ -703,6 +867,16 @@ font-family: tobi;
     
 
   }
+
+  #carouselExampleIndicatorsind img {
+    width: 400px;
+    height: 340px;
+  }
+  
+  #carouselExampleIndicatorsind {
+    width: 400px;
+    height: 340px;
+  } 
 
 }
   
