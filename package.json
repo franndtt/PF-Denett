@@ -1,0 +1,16 @@
+{
+  "name": "nueva-version-de-proyecto",
+  "version": "1.0.0",
+  "description": "Bienvenidos al sitio web no oficial de \"Tobi dolezor\" Esta pagina esta dedicada en mostrar su biografia, sus mejores lanzamientos y tambien algunas letras de sus temas mas reconocidos. El objetivo de la web es dar a conocer mas al artista. Este sitio se desarollo incluyendo una combinacion de lenguajes como HTML y CSS, tambien componentes de bootstrap.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss css/main.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  },
+  "devDependencies": {}
+}

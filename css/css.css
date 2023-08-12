@@ -1,55 +1,44 @@
     /* ================================= GENERAL  ================================= */
 
-body {
-    margin: 0;
-    padding: 0;
-    background-color: black;
-    height: 100vh;
-    display: grid;
-    grid-template-rows: 15vh 1fr 1fr 10vh; 
-    grid-template-columns: 1fr; 
-    grid-template-areas:
-    "header"
-    "main"
-    "main"
-    "footer";
-}
-
-
-
-
-header {
-    height: 15vh;
-    margin-left: 700px;
-     display: flex;
-     flex-wrap: nowrap;
-     flex-direction: row;
-     justify-items: center;
-     grid-area: header;
-     text-align: center;
-     
-     list-style: none;
-}
-
-main {
-    grid-area: main;
-    max-height: calc(100vh - 25vh); 
-    overflow: auto; 
-}
-
-
-footer {
-    grid-area: footer;
-    height: 20vh;
-    grid-area: footer;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      height: 100vh;
+      display: grid;
+      grid-template-rows: 15vh 1fr 1fr 10vh;
+      grid-template-columns: 1fr;
+      grid-template-areas: "header" "main" "main" "footer";
+    }
     
-
-}
+    header {
+      height: 15vh;
+      margin-left: 700px;
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: row;
+      justify-items: center;
+      grid-area: header;
+      text-align: center;
+      list-style: none;
+    }
+    
+    main {
+      grid-area: main;
+      max-height: 75vh;
+      overflow: auto;
+    }
+    
+    footer {
+      grid-area: footer;
+      height: 20vh;
+      grid-area: footer;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+    }
 
 footer p {
   color: white;
@@ -266,6 +255,15 @@ footer p {
     
 }
 
+.historia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: tobi;
+  margin-left: 50px;
+}
+
 #card1 {
   margin-top: 200px;
   display: flex;
@@ -369,6 +367,35 @@ footer p {
   justify-content: center;
   align-items: center;
   margin-right: 400px;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+    scale: 10%;
+  }
+
+  to {
+    opacity: 1;
+    scale: 100%;
+
+  }
+
+  
+
+}
+
+.historiamain section {
+
+
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+
+  animation-timeline: --image;
+  animation-name: show; 
+
+  animation-range: entry 25% cover 30%;
+  animation-fill-mode: both;
 }
 
 
@@ -899,6 +926,61 @@ font-family: tobi;
       width: 550px;
       height: 450px;
     } 
+
+  #card1 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  #card2 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #card3 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #card4 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #card5 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #card6 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #card7 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #card8 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #card9 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #card10 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #card11 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #card12 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #card13 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  
 
     
   }
