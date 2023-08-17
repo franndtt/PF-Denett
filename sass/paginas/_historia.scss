@@ -1,0 +1,200 @@
+                /* ================================= HISTORIA ================================= */
+
+.headermybio {
+  margin: 0;
+}
+#carouselExampleIndicatorsbio img {
+
+  width: 700px;
+  height: 600px;
+
+}
+
+#carouselExampleIndicatorsbio {
+  display: none;
+  width: 700px;
+  height: 600px;
+}
+
+
+.container-fluid {
+  margin-left: 400px;
+}
+.nav-link {
+  width: 200px;
+  
+  font-family: tobi;
+  color: white;
+}
+
+.nav-linkactive {
+  
+  color: white;
+}
+
+
+
+
+
+ .maindebio {
+
+    grid-area: main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+ 
+
+
+ .img1 {
+    
+    margin: auto;
+    margin-left: 400px;
+    width: 600px;
+    height: 600px;
+    
+}
+
+.historia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: tobi;
+  margin-left: 50px;
+}
+
+#card1 {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 400px;
+}
+
+#card2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-left: 450px;
+}
+
+#card3 {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 400px;
+}
+
+#card4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-left: 450px;
+}
+
+#card5 {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 400px;
+}
+
+#card6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-left: 450px;
+}
+
+#card7 {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 400px;
+
+}
+
+#card8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-left: 450px;
+}
+
+#card9 {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 400px;
+}
+
+#card10 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-left: 450px;
+}
+
+#card11 {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 400px;
+}
+
+#card12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-left: 450px;
+}
+
+#card13 {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 400px;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+    scale: 10%;
+  }
+
+  to {
+    opacity: 1;
+    scale: 100%;
+
+  }
+
+  
+
+}
+
+.historiamain section {
+
+
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+
+  animation-timeline: --image;
+  animation-name: show; 
+
+  animation-range: entry 25% cover 30%;
+  animation-fill-mode: both;
+}

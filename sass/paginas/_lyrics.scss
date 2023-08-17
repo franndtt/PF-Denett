@@ -1,0 +1,64 @@
+ /* ================================= LYRICS ================================= */
+
+
+ #paginaslyrics li {
+    font-family: tobi;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 80px;
+    margin-bottom: 80px;
+    
+}
+
+#paginaslyrics a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+    
+}   
+
+
+
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap; 
+  }
+  
+  .letras {
+    margin-top: 40px;
+    margin-left: 600px;
+    flex: 1; 
+    padding: 10px; 
+  }
+  
+  .letras ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .letras li {
+    margin-bottom: 150px; 
+  }
+  
+  .letras a{
+    
+    list-style: none;
+    color: white;
+  }
+
+  
+  .imagen {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+  }
+  
+  .imagen img {
+    margin-right: 150px;
+    width: 550px; 
+    
+    height: auto;
+  }

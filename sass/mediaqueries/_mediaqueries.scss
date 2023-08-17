@@ -1,0 +1,518 @@
+@media screen and (min-width: 1200px) {
+
+    .navbar-toggler {
+      background-color: black;
+    }
+    
+    
+    
+    body {
+      overflow-x: hidden;
+    }
+     
+    .img1 {
+      
+      margin-right: 0px;
+      margin-left: 300px;
+      
+      
+  }
+  
+  .lanzamientoz {
+    margin-left: 300px;
+  }
+  
+  .lanzamientoz2 {
+   margin-left: 300px;
+  }
+  
+  .time {
+    margin-left: 40px;
+    text-align: center;
+  }
+  
+  .alco {
+    margin-left: 40px;
+    text-align: center;
+  }
+  
+  .caoos {
+    margin-left: 40px;
+    text-align: center;
+  }
+  
+  .container-fluid {
+    align-items: center;
+  }
+  
+  
+  
+  
+  
+  
+    
+  }
+  @media screen and (max-width: 1500px) {
+  
+    .img1 {
+      
+      margin-right: 0px;
+      margin-left: 200px;
+      
+   
+  }
+  
+  .container-fluid {
+  
+    margin-left: 200px;
+  
+  }
+  
+  .lanzamientoz {
+    margin-left: 0px;
+  }
+  
+  .lanzamientoz2 {
+    margin-left: 0px;
+  }
+  
+  .letras {
+    margin-left: 40px;
+    text-align: center;
+  }
+  
+  .imagen {
+    margin-right: 0px;
+    text-align: center;
+  }
+  
+  #carouselExampleIndicatorsind img {
+    width: 600px;
+    height: 500px;
+  }
+  
+  #carouselExampleIndicatorsind {
+    width: 600px;
+    height: 500px;
+  }
+  
+  .cerocero {
+    margin-left: 20px;
+    margin-right: 20px;
+    
+  }
+    
+    
+  
+  }
+  
+  @media screen and (max-width: 1400px) {
+  
+   
+  
+    .container-fluid {
+      margin-left: 150px;
+    }
+  
+    #carouselExampleIndicatorsbio {
+      display: inline-block;
+      margin-left: 400px;
+    }  
+  
+  .img1 {
+    display: none;
+  }
+  
+  .img2 {
+    display: none;
+  }
+  
+  .lanzamientoz {
+    margin-left: 55px;
+  }
+  
+  .lanzamientoz2 {
+    margin-left: 55px;
+  }
+  
+  
+  @media screen and (max-width: 1200px) {
+  
+    
+  .todoslanzamientos {
+    margin-top: 150px;
+  }
+  
+  .time {
+    margin-left: 40px;
+    text-align: center;
+  }
+  
+  .alco {
+    margin-left: 40px;
+    text-align: center;
+  }
+  
+  .caoos {
+    margin-left: 40px;
+    text-align: center;
+  }
+  
+  .indexfooter {
+    margin-top: 150px;
+  }
+  
+    
+  }
+  
+  
+  
+  }
+  @media screen and (max-width: 1100px) {
+  
+  
+    #carouselExampleIndicatorsbio {
+      margin-top: 100px;
+      margin-left: 350px;
+    }
+     
+  
+  .footerlan {
+    margin-top: 140px;
+  }
+  
+  .footertime {
+    margin-top: 200px;
+  }
+  
+  .footeralco {
+    margin-top: 200px;
+  }
+  
+  .footercaos {
+    margin-top: 200px;
+  }
+  
+  .footerlyrics {
+    margin-top: 150px;
+  }
+  
+  
+  }
+  
+    
+    @media screen and (max-width: 992px) {
+  
+      #carouselExampleIndicatorsbio{
+        margin-left: 150px;
+      }  
+      .container-fluid {
+        margin-left: 0px;
+      }   
+    
+    .lanzamientoz {
+      margin-left: 200px;
+  
+    } 
+  
+    .lanzamientoz2 {
+      margin-left: 200px;
+  
+    }
+  
+    .imagen img {
+      margin-right: 0px;
+    
+    }
+  
+    #carouselExampleIndicatorsind img {
+      width: 450px;
+      height: 400px;
+    }
+    
+    #carouselExampleIndicatorsind {
+      width: 450px;
+      height: 400px;
+    }
+    
+    .cerocero {
+      margin-left: 20px;
+      margin-right: 20px;
+      
+    }
+    
+     
+    }
+    
+    @media screen and (max-width: 880px) {
+      
+      
+      #carouselExampleIndicatorsbio {
+        margin-left: 100px;
+      }
+      
+      .lanzamientoz {
+        margin-left: 100px;
+      }
+      .lanzamientoz2 {
+        margin-left: 100px;
+      }
+      
+      .imagen img {
+        width: 450px;
+        height: auto;
+      }
+  
+      .cerocero {
+        display: none;
+        
+      }
+  
+      #carouselExampleIndicatorsind img {
+        width: 650px;
+        height: 500px;
+      }
+      
+      #carouselExampleIndicatorsind {
+        width: 650px;
+        height: 500px;
+      }
+      
+      
+      
+    }
+  
+  
+  
+    @media screen and (max-width: 768px) {
+  
+      #carouselExampleIndicatorsbio {
+        margin-left: 25px;
+      }  
+  
+      .lanzamientoz {
+        margin-left: 20px;
+      }
+      .lanzamientoz2 {
+        margin-left: 20px;
+      }
+  
+      
+      
+      .footerlyrics {
+        margin-top: 180px;
+      }
+      
+      .imagen {
+      display: flex;
+      justify-content: center; 
+      align-items: center; 
+      }
+      
+      .imagen img {
+  
+      margin-left: 50px;
+        margin-top: 100px;
+        width: 500px;
+        height: 500px;
+      }
+  
+      .letras {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Cambia el valor alfa para ajustar la opacidad */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        margin-top: 100px;
+      }
+  
+      #carouselExampleIndicatorsind img {
+        width: 550px;
+        height: 450px;
+      }
+      
+      #carouselExampleIndicatorsind {
+        width: 550px;
+        height: 450px;
+      } 
+  
+    #card1 {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  
+    #card2 {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    #card3 {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    #card4 {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    #card5 {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    #card6 {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    #card7 {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    #card8 {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    #card9 {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    #card10 {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    #card11 {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    #card12 {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    #card13 {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    
+  
+      
+    }
+    
+    
+    @media screen and (max-width: 576px) {
+  
+      .imagen img {
+  
+        margin-left: 50px;
+          margin-top: 100px;
+          width: 450px;
+          height: 450px;
+        }
+  
+      #carouselExampleIndicatorsbio {
+        
+        margin-left: 0px;
+        width: 500px;
+        height: 400px;
+      }
+      
+  
+      #carouselExampleIndicatorsbio img {
+        width: 500px;
+        height: 600px;
+      }
+  
+      .lanzamientoz {
+        margin-left: 150px;
+      }
+      .lanzamientoz2 {
+        margin-left: 150px;
+      }
+  
+      #carouselExampleIndicatorsind img {
+        width: 480px;
+        height: 380px;
+      }
+      
+      #carouselExampleIndicatorsind {
+        width: 480px;
+        height: 380px;
+      } 
+  
+    }
+        
+    
+    
+      @media screen and (max-width: 500px) {
+        .imagen img {
+  
+          margin-left: 50px;
+            margin-top: 100px;
+            width: 350px;
+            height: 500px;
+          }
+        #carouselExampleIndicatorsbio {
+        
+          margin-left: 0px;
+          width: 400px;
+          height: 600px;
+        }
+        
+    
+        #carouselExampleIndicatorsbio img {
+          width: 400px;
+          height: 600px;
+        }
+  
+        .lanzamientoz {
+          margin-left: 70px;
+        }
+        .lanzamientoz2 {
+          margin-left: 70px;
+        }
+      
+        header {
+          grid-area: header;
+        }
+        header nav {
+          background-color: black;
+          height: 73px;
+          z-index: 9999 !important;
+        }
+        header nav .navbar-collapse {
+          background-color: black
+        }
+        header nav #switch-nav {
+          color: black;
+        }
+        header nav #switch-nav #sun-icon {
+          position: relative;
+          right: 84px;
+        }
+        header nav #switch-nav #swithc-dark-theme {
+          color: black;
+        }
+        header nav #search-nav {
+          display: flex;
+          justify-content: center;
+          justify-self: center;
+  
+      
+  
+    }
+  
+    #carouselExampleIndicatorsind img {
+      width: 400px;
+      height: 340px;
+    }
+    
+    #carouselExampleIndicatorsind {
+      width: 400px;
+      height: 340px;
+    } 
+  
+    
+  
+  }

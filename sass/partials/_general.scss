@@ -1,0 +1,63 @@
+    /* ================================= GENERAL  ================================= */
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 15vh 1fr 1fr 10vh;
+        grid-template-columns: 1fr;
+        grid-template-areas: "header" "main" "main" "footer";
+      }
+      
+      header {
+        height: 15vh;
+        margin-left: 700px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-items: center;
+        grid-area: header;
+        text-align: center;
+        list-style: none;
+      }
+      
+      main {
+        grid-area: main;
+        max-height: 75vh;
+        overflow: auto;
+      }
+      
+      footer {
+        grid-area: footer;
+        height: 20vh;
+        grid-area: footer;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+  
+  footer p {
+    color: white;
+  }
+  
+  
+  .spotifi {
+    color: $color-spotify;
+  }
+  
+  .instagramm {
+      color: $color-instagram;
+  }
+  
+  
+  
+  
+  
+  @font-face {
+      font-family: "tobi" ;
+      src: url(../assets/fuentes/COLLENIS.ttf);
+  }

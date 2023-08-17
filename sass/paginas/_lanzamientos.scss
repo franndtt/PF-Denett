@@ -1,0 +1,61 @@
+ /* ================================= LANZAMIENTOS ================================= */
+
+ #paginaslanzamientos li {
+    font-family: tobi;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 80px;
+    margin-bottom: 80px;
+    
+}
+
+#paginaslanzamientos a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    
+}   
+
+
+
+
+.lanzamientoz {
+    margin-top: 150px;
+    margin-left: 350px;
+}
+
+.lanzamientoz2 {
+    margin-left: 350px;
+}
+
+.lanzamientoz a,
+.lanzamientoz2 a {
+  position: relative;
+  display: inline-block;
+}
+
+
+.lanzamientoz a::after,
+.lanzamientoz2 a::after {
+  content: 'ESCUCHAR AHORA';
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px 25px;
+  background-color:white; 
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 11px;
+  
+}
+
+
+.lanzamientoz a:hover::after,
+.lanzamientoz2 a:hover::after {
+  display: block;
+}
